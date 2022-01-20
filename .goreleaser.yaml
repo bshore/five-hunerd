@@ -9,12 +9,12 @@ builds:
       - amd64
       - arm64
 archives:
-  format: zip
-  wrap_in_directory: true
-  files:
-    - README.md
-    - assets/*
-  - replacements:
+  - format: zip
+    wrap_in_directory: true
+    files:
+      - README.md
+      - assets/*
+    replacements:
       darwin: Darwin
       linux: Linux
       windows: Windows
