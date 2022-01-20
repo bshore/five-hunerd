@@ -1,6 +1,6 @@
 project_name: five-hunerd
 builds:
-  - env: [CGO_ENABLED=0]
+  - env: [CGO_ENABLED=0, CC=x86_64-w64-mingw32-gcc]
     goos:
       - linux
       - windows
