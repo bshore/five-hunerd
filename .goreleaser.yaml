@@ -1,0 +1,22 @@
+project_name: five-hunerd
+builds:
+  - env: [CGO_ENABLED=0]
+    goos:
+      - linux
+      - windows
+      - darwin
+    goarch:
+      - amd64
+      - arm64
+archives:
+  format: zip
+  wrap_in_directory: true
+  files:
+    - README.md
+    - assets/*
+  - replacements:
+      darwin: Darwin
+      linux: Linux
+      windows: Windows
+      386: i386
+      amd64: x86_64
