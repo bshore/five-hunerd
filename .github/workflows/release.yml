@@ -10,6 +10,9 @@ permissions:
 
 jobs:
   goreleaser:
+    env:
+      CGO_ENABLED: 0
+      CC: x86_64-w64-mingw32-gcc
     runs-on: windows-latest
     steps:
       - name: Checkout
