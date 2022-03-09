@@ -1,14 +1,20 @@
 project_name: five-hunerd
+before:
+  hooks:
+    - go mod download
 builds:
   - env:
       - CGO_ENABLED=1
-      - CC=x86_64-w64-mingw32-gcc
+      - CC_FOR_windows_x86_64=x86_64-w64-mingw32-gcc
     goos:
       - linux
       - windows
       - darwin
     goarch:
       - amd64
+    ignore:
+      - goos: darwin
+        goarch: 386
 archives:
   - format: zip
     wrap_in_directory: true
@@ -18,5 +24,6 @@ archives:
     replacements:
       linux: Linux
       windows: Windows
+      darwin: Darwin
       386: i386
       amd64: x86_64
