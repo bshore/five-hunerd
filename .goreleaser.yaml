@@ -4,10 +4,11 @@ builds:
       - CGO_ENABLED=1
       - CC=x86_64-w64-mingw32-gcc
     goos:
+      - linux
       - windows
+      - darwin
     goarch:
       - amd64
-      - arm64
 archives:
   - format: zip
     wrap_in_directory: true
