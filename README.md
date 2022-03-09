@@ -6,7 +6,11 @@ Playing card game I learned when I was younger, recreated while tinkering with t
 
 Visit the [release page](https://github.com/bshore/five-hunerd/releases) and download the asset for your operating system.
 
-## Play
+## Example Round
+
+![video/round-example.mp4](./video/round-example.mp4)
+
+## Rules
 
 Real Five-Hundred is played at a table with two teams of two, you can read about the table rules [here](https://www.pagat.com/euchre/500.html#w7st).
 
@@ -33,7 +37,7 @@ The game consists of 3 phases:
 - Trick Phase - Starting with you, the players play cards from their hand one trick at a time attempting to take as many as possible.
   - Highest card takes the trick, players must follow the suit of the first card played if possible
   - If a player cannot follow suit, they can "sluff" a low card of any suit, or choose to trump the trick, meaning you play a card of the suit that was bid. A trump suit played on a trick wins unless one of the next players also cannot follow suit and can trump higher.
-  - Your goal is to take _at least_ as many tricks as you bid. So for example if you bid **8 Diamonds**, you must take 8 of the 10 tricks, or you are penalized.
+  - Your goal is to take _at least_ as many tricks as you bid. So for example if you bid **8 Diamonds**, your team must take 8 of the 10 tricks, or you are penalized.
 
 #### Credits
 

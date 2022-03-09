@@ -77,9 +77,10 @@ func loadTTF(path string, size float64) (font.Face, error) {
 func run() {
 	// monitors := pixelgl.Monitors()
 	config := pixelgl.WindowConfig{
-		Title:  "Five-Hunerd",
-		Bounds: pixel.R(0, 0, 1920, 1080),
-		VSync:  true,
+		Title:     "Five-Hunerd",
+		Bounds:    pixel.R(0, 0, 1920, 1080),
+		VSync:     true,
+		Resizable: true,
 		// Monitor: monitors[2],
 	}
 	window, err := pixelgl.NewWindow(config)
