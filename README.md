@@ -7,8 +7,7 @@ Playing card game I learned when I was younger, recreated while tinkering with t
 Visit the [release page](https://github.com/bshore/five-hunerd/releases) and download the asset for your operating system.
 
 ## Example Round
-
-![video/round-example.mp4](./video/round-example.mp4)
+https://user-images.githubusercontent.com/14914028/157559458-b690857a-5ebb-4f41-8881-5e510a40af9b.mp4
 
 ## Rules
 
